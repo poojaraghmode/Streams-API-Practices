@@ -35,4 +35,16 @@ module com.github.streams {
       org.junit.platform.commons;
   opens com.github.streams.practice.b_medium to
       org.junit.platform.commons;
+
+  // INTERVIEW QUESTIONS
+  opens com.github.streams.interview.collections to
+      org.junit.platform.commons;
+  opens com.github.streams.interview.algorithms to
+      org.junit.platform.commons;
+  opens com.github.streams.interview.streams to
+      org.junit.platform.commons;
+  opens com.github.streams.interview.generics to
+      org.junit.platform.commons;
+  opens com.github.streams.interview.concurrency to
+      org.junit.platform.commons;
 }
